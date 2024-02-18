@@ -2,8 +2,16 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Learning03 World!");
+    static void Main(string[] args) {
+        BaldEagle joey = new BaldEagle("Joey");
+        BaldEagle dragon = new BaldEagle("Dragon");
+
+        joey.MakeSound();
+        dragon.MakeSound();
+
+        joey.Screech();
+        dragon.Screech();
+
     }
+   
 }
